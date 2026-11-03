@@ -25,7 +25,7 @@ int xin1 = 2,xin2= 4,yin1= 5,yin2=18, ENA=15, ENB=19;
 PID bmoPID(&angle, &motorOutput, &setpoint, Kp, Ki, Kd, DIRECT);
 Adafruit_SH1106G BMO = Adafruit_SH1106G(128, 64, &Wire, -1);
 MPU6050 mpu(Wire);
-String Gemini_APIKey = "AIzaSyDvCYuYwpujQCyTT2FSN6KUYDmrILeKHPE";
+String Gemini_APIKey = " ";
 String Gemini_Model  = "gemini-2.5-flash";
 
 
